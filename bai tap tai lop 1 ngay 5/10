@@ -1,0 +1,50 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Colaboratory chào mừng bạn!",
+      "provenance": [],
+      "collapsed_sections": [],
+      "toc_visible": true,
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/hoangnuthuphuong/python/blob/Phuong/bai%20tap%20tai%20lop%201%20ngay%205/10\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "YHc34zn599K2"
+      },
+      "source": [
+        "dtb = float(input(\"Nhập điểm trung bình: \"))\n",
+        "if dtb >= 0 and dtb <= 5.0:\n",
+        "  print(\"Yếu\")\n",
+        "if dtb >= 5.0 and dtb < 7.0:\n",
+        "  print(\"Trung Bình\")\n",
+        "if dtb >= 7.0 and dtb < 8.0:\n",
+        "  print(\"Khá\")\n",
+        "if dtb >= 8.0 and dtb < 9.0:\n",
+        "  print(\"Giỏi\")\n",
+        "if dtb > 9.0:\n",
+        "  print(\"Xuất sắc\")"
+      ],
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
